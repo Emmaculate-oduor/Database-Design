@@ -18,19 +18,19 @@ The database is powered by MySQL, and the backend is built using Node.js and Exp
 git clone https://github.com/Emmaculate-oduor/contact-book-api.git
 cd contact-book-api 
 ```
-###2. Install dependencies
+### 2. Install dependencies
 Make sure you have Node.js installed. Then run:
 ```bash
 npm install
 ```
-###3. Set up the database
+3. Set up the database
 Import the contact_book.sql file into your MySQL database.
 
 Use the following command in your MySQL command line:
 ```bash
 mysql -u root -p < contact_book.sql
 ```
-###4. Configure environment variables
+4. Configure environment variables
 Create a .env file in the root of your project and add the following:
 ```
 DB_HOST=localhost
@@ -39,7 +39,7 @@ DB_PASSWORD=your_password
 DB_NAME=contact_book
 PORT=8080
 ```
-###5. Run the project
+5. Run the project
 Once everything is set up, start the application using:
 ```
 npm start
